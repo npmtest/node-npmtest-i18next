@@ -1,7 +1,10 @@
-# test coverage for  [i18next (v7.2.1)](http://i18next.com)  [![npm package](https://img.shields.io/npm/v/npmtest-i18next.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-i18next) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-i18next.svg)](https://travis-ci.org/npmtest/node-npmtest-i18next)
+# npmtest-i18next
+
+#### test coverage for  [i18next (v7.2.3)](http://i18next.com)  [![npm package](https://img.shields.io/npm/v/npmtest-i18next.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-i18next) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-i18next.svg)](https://travis-ci.org/npmtest/node-npmtest-i18next)
+
 #### i18next internationalization framework
 
-[![NPM](https://nodei.co/npm/i18next.png?downloads=true)](https://www.npmjs.com/package/i18next)
+[![NPM](https://nodei.co/npm/i18next.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/i18next)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-i18next/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-i18next/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-i18next/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-i18next/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-i18next/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-i18next/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-i18next/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-i18next/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-i18next/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-i18next/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-i18next%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-i18next/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-i18next/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-i18next/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-i18next/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-i18next%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-i18next/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-i18next/build/test-report.html](https://npmtest.github.io/node-npmtest-i18next/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-i18next/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-i18next/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-i18next/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-i18next/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-i18next/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-i18next/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-i18next/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +37,6 @@
 {
     "author": {
         "name": "Jan Mühlemann",
-        "email": "jan.muehlemann@gmail.com",
         "url": "https://github.com/jamuhl"
     },
     "bugs": {
@@ -87,10 +95,10 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "7770df5d319e1f4c530f2c0eea75d0a3d733b3d3",
-        "tarball": "https://registry.npmjs.org/i18next/-/i18next-7.2.1.tgz"
+        "shasum": "a6c220ac1c8240ff1078aa9bc997fd449e052dc7",
+        "tarball": "https://registry.npmjs.org/i18next/-/i18next-7.2.3.tgz"
     },
-    "gitHead": "1cfcb55e254245c868edff21bfee125d2c3f5005",
+    "gitHead": "ca1a16f541d6be9cdb77b0b2d393b0ec4e6e38e6",
     "homepage": "http://i18next.com",
     "jsnext:main": "dist/es/index.js",
     "keywords": [
@@ -107,18 +115,15 @@
     "main": "./index.js",
     "maintainers": [
         {
-            "name": "adrai",
-            "email": "adriano@raiano.ch"
+            "name": "adrai"
         },
         {
-            "name": "jamuhl",
-            "email": "jan.muehlemann@gmail.com"
+            "name": "jamuhl"
         }
     ],
     "module": "dist/es/index.js",
     "name": "i18next",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/i18next/i18next.git"
@@ -140,7 +145,7 @@
         "test:compat": "karma start karma.backward.conf.js --singleRun",
         "test:new": "karma start karma.conf.js --singleRun"
     },
-    "version": "7.2.1"
+    "version": "7.2.3"
 }
 ```
 
