@@ -1,6 +1,6 @@
 # npmtest-i18next
 
-#### test coverage for  [i18next (v7.2.3)](http://i18next.com)  [![npm package](https://img.shields.io/npm/v/npmtest-i18next.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-i18next) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-i18next.svg)](https://travis-ci.org/npmtest/node-npmtest-i18next)
+#### basic test coverage for  [i18next (v8.0.0)](http://i18next.com)  [![npm package](https://img.shields.io/npm/v/npmtest-i18next.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-i18next) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-i18next.svg)](https://travis-ci.org/npmtest/node-npmtest-i18next)
 
 #### i18next internationalization framework
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-i18next/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-i18next/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-i18next/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-i18next/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-i18next/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-i18next/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-i18next/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-i18next/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-i18next/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-i18next/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-i18next/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-i18next/build/coverage.html/index.html)
 
@@ -95,10 +95,10 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "a6c220ac1c8240ff1078aa9bc997fd449e052dc7",
-        "tarball": "https://registry.npmjs.org/i18next/-/i18next-7.2.3.tgz"
+        "shasum": "487ea70d422e98d0b9ff2246e44bd91d851a46b7",
+        "tarball": "https://registry.npmjs.org/i18next/-/i18next-8.0.0.tgz"
     },
-    "gitHead": "ca1a16f541d6be9cdb77b0b2d393b0ec4e6e38e6",
+    "gitHead": "5f6a86d58222b2c209a8e92ef39c7e602b5d3eaa",
     "homepage": "http://i18next.com",
     "jsnext:main": "dist/es/index.js",
     "keywords": [
@@ -145,7 +145,8 @@
         "test:compat": "karma start karma.backward.conf.js --singleRun",
         "test:new": "karma start karma.conf.js --singleRun"
     },
-    "version": "7.2.3"
+    "version": "8.0.0",
+    "bin": {}
 }
 ```
 
